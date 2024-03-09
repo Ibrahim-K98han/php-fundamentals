@@ -13,7 +13,10 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            $a = 10;
+            $b = 10;
+            $c = $a + $b;
+            echo "Total Value : ".$c." OK fine";
         ?>
     </section>
     <section class="footerOption">

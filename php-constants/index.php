@@ -13,7 +13,13 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            define("VALUE", "I am Learning PHP");
+            
+            function learPHP(){
+                return VALUE;
+            }
+           echo learPHP();
+            
         ?>
     </section>
     <section class="footerOption">

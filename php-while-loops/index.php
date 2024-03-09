@@ -13,7 +13,23 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+        //    $x = 1;
+        //    while($x <= 5){
+        //         echo "The number is : $x <br>";
+        //         $x++;
+        //    }
+
+        
+        $x = 7;
+        do{
+            echo "The number is : $x <br>";
+            $x++;
+        }while($x <=5);
+
+
+        //    for($i=1; $i<=10; $i++){
+        //         echo "The number is : $i <br>";
+        //    }
         ?>
     </section>
     <section class="footerOption">

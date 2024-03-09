@@ -13,7 +13,12 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+           $x = 'PHP is nice';
+            // echo strlen($x); length
+            // echo str_word_count($x); word count
+            // echo strrev($x); revised
+            // echo strpos($x, "nice"); position
+            // echo str_replace("PHP","JAVA",$x); replace
         ?>
     </section>
     <section class="footerOption">

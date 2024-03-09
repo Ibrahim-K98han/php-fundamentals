@@ -13,7 +13,11 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            echo "PHP ","Nice";
+            echo "<br/>";
+            //print "PHP ","Nice";
+            $a = "Ibrahim";
+            var_dump($a);
         ?>
     </section>
     <section class="footerOption">

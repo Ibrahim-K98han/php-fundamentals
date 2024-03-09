@@ -13,7 +13,20 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            $coding = "JAVA";
+            switch($coding){
+                case "HTML":
+                    echo "I Love HTML";
+                    break;
+                case "PHP":
+                    echo "I Love PHP";
+                    break;
+                case "JAVA";
+                    echo "I Love JAVA";
+                    break;
+                default:
+                    echo "I Love Programming";
+            }
         ?>
     </section>
     <section class="footerOption">

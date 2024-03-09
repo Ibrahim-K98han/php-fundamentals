@@ -13,7 +13,15 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            $colors = array(
+                "Blue",
+                "Red",
+                "Green",
+                "Orange"
+            );
+            foreach($colors as $color){
+                echo "$color <br>";
+            }
         ?>
     </section>
     <section class="footerOption">

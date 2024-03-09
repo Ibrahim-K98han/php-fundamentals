@@ -13,7 +13,9 @@
     </section>
     <section class='mainContent'>
         <?php
-            echo 'hello';
+            for($i=0; $i<=10; $i++){
+                echo "Hello $i <br>";
+            }
         ?>
     </section>
     <section class="footerOption">
