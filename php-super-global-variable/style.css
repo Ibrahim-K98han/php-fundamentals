@@ -1,0 +1,21 @@
+.body{
+    font-family: verdana;
+}
+.phpCoding {
+    width: 900px;
+    margin: 0 auto;
+    background: #ddd;
+}
+.headerOption, .footerOption {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.headerOption h2, .footerOption h2{
+    margin: 0;
+}
+.mainContent{
+    min-height: 450px;
+    padding: 20px;
+}
