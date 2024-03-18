@@ -1,13 +1,12 @@
-<?php include 'header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
 
 <section class='mainContent'>
     <?php
        
     ?>
-
 </section>
 
 
 
-<?php include 'footer.php'; ?>
+<?php include 'inc/footer.php';?>
