@@ -153,26 +153,172 @@
 
          //**************array_different_key**************//
 
-         $array_one = array(
-            'a'=>'red',
-            'b'=>'green',
-            'c'=>'blue'
-        );
-        $array_two = array(
-            'c'=>'red',
-            'd'=>'black',
-            'e'=>'brown'
-        );
-        $array_three = array(
-            'f'=>'green',
-            'c'=>'purple',
-            'g'=>'red'
-        );
+        //  $array_one = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue'
+        // );
+        // $array_two = array(
+        //     'c'=>'red',
+        //     'd'=>'black',
+        //     'e'=>'brown'
+        // );
+        // $array_three = array(
+        //     'f'=>'green',
+        //     'c'=>'purple',
+        //     'g'=>'red'
+        // );
       
-        $differ = array_diff_key($array_one, $array_two, $array_three);
+        //**************array_intersect**************//
+
+        //  $array_one = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue',
+        //     'd'=>'yellow',
+        // );
+        // $array_two = array(
+        //     'e'=>'red',
+        //     'f'=>'green',
+        //     'g'=>'blue'
+        // );
+        // $array_three = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue'
+        // );
+        // $result = array_intersect($array_one, $array_two, $array_three);
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+
+         //**************array_intersect_assoc**************//
+
+        //  $array_one = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue',
+        //     'd'=>'yellow',
+        // );
+        // $array_two = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue',
+        //     'd'=>'yellow',
+        // );
+        // $array_three = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue',
+        //     'd'=>'yellow',
+        // );
+        // $result = array_intersect_assoc($array_one, $array_two, $array_three);
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+        //**************array_intersect_key**************//
+
+        // $array_one = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue'
+        // );
+        // $array_two = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue'
+        // );
+        // $array_three = array(
+        //     'a'=>'red',
+        //     'b'=>'green',
+        //     'c'=>'blue'
+        // );
+        // $result = array_intersect_key($array_one, $array_three);
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+        //**************array_key_exists**************//
+        
+        // $arr = array(
+        //     'name'=>'Ibrahim',
+        //     'age'=>25
+        // );
+
+        // $arr = array('name', 'age');
+
+        // if(array_key_exists(1, $arr)){
+        //     echo "key exists";
+        // }else{
+        //     echo "key not exists";
+        // }
+
+        
+        //**************array_key**************//
+        // $car = array(
+        //     'Volvo'=>'xc90',
+        //     'BMW'=>'bmw90',
+        //     'Toyota'=>'to95'
+        // );
+        // $result = array_keys($car, 'bmw90');
+    
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+
+        //**************array_map**************//
+        // function myFunction($value){
+        //     $v = strtoupper($value);
+        //     return $v;
+        // }
+        // //$arr = array(1,2,3,4,5);
+        // $arr = array(
+        //     'Animal'=>'Cow',
+        //     'Type'=>'mammal'
+        // );
+        // $result = array_map('myFunction', $arr);
+        
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+
+         //**************array_merge**************//
+        // $arr_one = array('red','green');
+        // $arr_two = array('blue','yellow');
+        // $result = array_merge($arr_one, $arr_two);
+        // $arr_one = array(
+        //     'a'=>'red',
+        //     'b'=>'green'
+        // );
+        // $arr_two = array(
+        //     'a'=>'blue',
+        //     'b'=>'yellow'
+        // );
+        //  $result = array_merge($arr_one, $arr_two);
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+
+        //**************array_multisort**************//
+        $arr_one = array('Dog', 'Cat');
+        $arr_two = array('Lion', 'Tiger');
+        
+        array_multisort($arr_one, $arr_two);
+
         print("<pre>");
-        print_r ($differ);
+        print_r ($arr_one);
         print("</pre>");
+
+        print("<pre>");
+        print_r ($arr_two);
+        print("</pre>");
+           
+
+
     ?>
 
 </section>
