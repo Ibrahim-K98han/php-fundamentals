@@ -304,17 +304,52 @@
         // print("</pre>");
 
         //**************array_multisort**************//
-        $arr_one = array('Dog', 'Cat');
-        $arr_two = array('Lion', 'Tiger');
+        // $arr_one = array('Dog', 'Cat');
+        // $arr_two = array('Lion', 'Tiger');
         
-        array_multisort($arr_one, $arr_two);
+        // array_multisort($arr_one, $arr_two);
+
+        // print("<pre>");
+        // print_r ($arr_one);
+        // print("</pre>");
+
+        // print("<pre>");
+        // print_r ($arr_two);
+        // print("</pre>");
+
+
+        //**************array pop and push**************//
+        // $arr = array('red','green');
+        // array_push($arr,'blue','yellow');
+
+        // print("<pre>");
+        // print_r ($arr);
+        // print("</pre>");
+
+
+        //**************array product**************//
+        // $arr = array(5,5,2,10);
+        // echo array_product($arr);
+
+        // print("<pre>");
+        // print_r ($arr);
+        // print("</pre>");
+
+        //**************array replace**************//
+        // $arr_one = array("red","green");
+        // $arr_two = array("blue","yellow");
+        // $result = array_replace($arr_one, $arr_two);
+
+        // print("<pre>");
+        // print_r ($result);
+        // print("</pre>");
+           
+        //**************array reverse**************//
+        $arr_one = array("red","green");
+        $result = array_reverse($arr_one);
 
         print("<pre>");
-        print_r ($arr_one);
-        print("</pre>");
-
-        print("<pre>");
-        print_r ($arr_two);
+        print_r ($result);
         print("</pre>");
            
 
